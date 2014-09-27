@@ -1,4 +1,9 @@
-/* -*- c-basic-offset: 8 -*- */
+/*
+ *  Basic Offset: 8
+ *
+ *  @author: FMCAlisto
+ *
+ */
 
 #include <stdlib.h>
 #include <stdio.h>
