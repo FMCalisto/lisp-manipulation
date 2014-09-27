@@ -1,7 +1,7 @@
 /*
  *  Basic Offset: 8
  *
- *  @author: FMCAlisto
+ *  @author: Francisco Maria Calisto
  *
  */
 
