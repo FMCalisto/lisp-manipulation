@@ -1,0 +1,10 @@
+(defun find1 (alist)
+  (let ((count 0))
+    (labels ((findit (list)
+              (let ((part (member '1 list)))
+                (if part
+                  (progn (incf count)
+                         (findit (rest part)))
+                   0))
+             count))
+      (findit alist))))
