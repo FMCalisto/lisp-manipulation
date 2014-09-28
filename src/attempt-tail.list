@@ -1,0 +1,5 @@
+(defun attempt-tail (list-of-lists)
+    (labels ((iter (rest ans)
+               (if (null rest) (nreverse ans)
+                   (iter (cdr rest) (push (third (car rest)) ans)))))
+      (iter list-of-lists nil)))
