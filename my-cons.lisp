@@ -1,6 +1,6 @@
-(defun meu-cons (car cdr)
-  #'(lambda (mensagem)
-      (case mensagem
+(defun my-cons (car cdr)
+  #'(lambda (message)
+      (case message
             (:car car)
-            ((:cdr) cdr) ;podia ser :cdr em vez de (:cdr)
-            (otherwise (error "Mensagem desconhecida: ~a" mensagem)))))
+            ((:cdr) cdr) ;could be cdr instead of (cdr)
+            (otherwise (error "Unknown message: ~a" mensagem)))))
