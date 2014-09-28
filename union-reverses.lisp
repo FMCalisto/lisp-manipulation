@@ -1,7 +1,7 @@
 (load	"union.lisp")
 
-(defun	reverses	(l)
+(defun	union-reverses	(l)
 	(if	(null	l)
 		()
-	(union	(reverses	(rest	l))
+	(union	(union-reverses	(rest	l))
 		(list	(first	l)))))
