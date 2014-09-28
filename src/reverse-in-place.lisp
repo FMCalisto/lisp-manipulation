@@ -1,0 +1,6 @@
+(defun reverse-in-place (l)
+  (let ((result l))
+    (recurse reving ((l l) (r (reverse l))
+      (cond ((not (consp l)) result)
+            (else (setf   (car l) (car r))
+                  (reving (cdr l) (cdr r)))))))
