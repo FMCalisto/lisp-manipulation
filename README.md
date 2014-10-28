@@ -43,6 +43,10 @@ which returns the last couple of sequence pairs that constitute a list (with con
 # Acknowledgements:
 
 Ana Beatriz Alves
+
 Francisco Gonçalves
+
 Bruno Oliveira (bruno-oliveira)
+
 Rodrigo Lourenço (rzlourenco)
+
