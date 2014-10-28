@@ -1,0 +1,6 @@
+
+
+(defun max (lst)
+  (if (null lst)
+      ()
+    (>= (first lst) (max (rest lst)))))
