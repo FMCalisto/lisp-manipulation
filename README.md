@@ -48,5 +48,3 @@ Francisco Gonçalves
 
 Bruno Oliveira (bruno-oliveira)
 
-Rodrigo Lourenço (rzlourenco)
-
