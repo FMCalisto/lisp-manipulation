@@ -7,5 +7,3 @@
                         (when (> (aref matrix lin col) 3)
                                 (setf res (cons (aref matrix lin col) res)))))
         res)
-        
-(print (matrix-search array))
