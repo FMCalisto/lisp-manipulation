@@ -38,3 +38,11 @@ which returns the last couple of sequence pairs that constitute a list (with con
 2. Function that reverses a list using recursive process.
 
 3. Returns the list of sublists of the list received as argument.
+
+
+# Acknowledgements:
+
+Ana Beatriz Alves
+Francisco Gonçalves
+Bruno Oliveira (bruno-oliveira)
+Rodrigo Lourenço (rzlourenco)
