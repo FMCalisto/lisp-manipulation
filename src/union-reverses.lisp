@@ -1,3 +1,5 @@
+(load "union.lisp")
+
 (defun	union-reverses	(l)
 	(if	(null	l)
 		()
