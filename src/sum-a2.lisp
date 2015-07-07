@@ -1,10 +1,10 @@
 ;;;; Sums tow Arrays and returns the sum of the both ;;;;
 
 (defun sum-a2 (array1 array2)
-  (if (equal NIL array1)
+  (if (or (null array1 (null array2))
     NIL
     (cons
-      (mapcar #' + (first array1) (first array2))
+      (+ (first array1) (first array2))
       (sum-a2 (rest array1) (rest array2))
     )
   )
