@@ -7,8 +7,13 @@
 
 (defun list-filter (lst pred)
   (if (null lst)
-  	lst
-  	(mapcar (lambda (x) (and (funcall pred x) x)) lst)
+  	NIL
+  	(if (funcall pred (car lst))
+  		(cons (first lst)
+  			(list-filter (rest lst) pred))
+  		(list-filter (rest lst) pred)
+  	)
   )
-  ;;;(list-filter (rest lst) pred)
 )
+
+;;;; Thanks to Rodrigo Lourenco (@rzlourenco)
