@@ -27,6 +27,11 @@ semicolon (;), ignores the text to the end of the line. Meet # | ignores
 the text to | #.
 
 
+## How to Load and Compile
+
+```(load (compile-file “[file].lisp”))```
+
+
 ## Exercises
 
 Expression evaluation is performed according to a set of rules, 
