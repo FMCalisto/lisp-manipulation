@@ -46,5 +46,5 @@ Ana Beatriz Alves
 
 Francisco Gonçalves
 
-Bruno Oliveira (bruno-oliveira)
+Bruno Oliveira (@bruno-oliveira)
 
