@@ -6,5 +6,5 @@
     lst
     (- (cadr lst) (car lst))
   )
-  (count-by-N (cdr lst))
+  (count-by-N-1 (cdr lst))
 )
