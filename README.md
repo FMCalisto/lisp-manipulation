@@ -45,6 +45,54 @@ which returns the last couple of sequence pairs that constitute a list (with con
 3. Returns the list of sublists of the list received as argument.
 
 
+## Details about Lisp Enviroment
+
+For changing line:
+
+```
+> (format t "~%")
+
+NIL
+```
+
+> See description of the [Format](http://www.lispworks.com/documentation/lw50/CLHS/Body/f_format.htm) in [HyperSpec](http://www.lispworks.com/documentation/HyperSpec/Front/).
+
+To load a source file for the Lisp environment:
+
+```
+(load <nome-ficheiro>)
+```
+
+For example:
+
+```
+> (load "projecto.lisp")
+
+T
+```
+
+To compile a file:
+
+```
+> (compile-file "projecto")
+
+#P"/Users/pedromatos/Desktop/projecto/projecto.fasl"
+
+NIL
+
+NIL
+```
+
+> Compilation should not identify warnings!
+
+To load the last well compiled file:
+```
+> (load "projecto")
+
+T
+```
+
+
 # Acknowledgements:
 
 Ana Beatriz Alves ([@AnyaAlves](https://github.com/AnyaAlves))
