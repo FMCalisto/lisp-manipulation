@@ -47,7 +47,7 @@ which returns the last couple of sequence pairs that constitute a list (with con
 
 # Acknowledgements:
 
-Ana Beatriz Alves([@AnyaAlves](https://github.com/AnyaAlves))
+Ana Beatriz Alves ([@AnyaAlves](https://github.com/AnyaAlves))
 
 Francisco Gonçalves
 
