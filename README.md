@@ -1,8 +1,8 @@
-# List Manipulation
+# Lisp Manipulation
 
-### Introduction to Common Lisp List Manipulation
+### Introduction to Common Lisp Manipulation
 
-This is a short introduction to Common Lisp List Manipulation.
+This is a short introduction to Common Lisp Manipulation.
 
 
 ## Preface
@@ -47,7 +47,7 @@ which returns the last couple of sequence pairs that constitute a list (with con
 
 # Acknowledgements:
 
-Ana Beatriz Alves
+Ana Beatriz Alves([@AnyaAlves](https://github.com/AnyaAlves))
 
 Francisco Gonçalves
 
