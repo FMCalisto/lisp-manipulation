@@ -661,7 +661,7 @@ FAZ-CONTADOR
 MEU-CONS
 > (defun meu-car (meu-cons)
 (funcall meu-cons :car))
-MEU-CAR
+MEU-CAR 
 > (defun meu-cdr (meu-cons)
 (funcall meu-cons :cdr))
 MEU-CDR
